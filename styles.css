@@ -1,0 +1,23 @@
+/* --- Facebook --- */
+/* This targets the main content area on the new Facebook layout */
+div[role="main"] {
+    display: none !important;
+}
+
+/* --- Twitter (X) --- */
+/* This targets the main timeline */
+main[role="main"] {
+    display: none !important;
+}
+
+/* --- LinkedIn --- */
+/* This targets the main feed container */
+main[aria-label="Feed principal"] {
+    display: none !important;
+}
+
+/* --- Instagram --- */
+/* This targets the main content area which holds the feed */
+main[role="main"] {
+    display: none !important;
+}
