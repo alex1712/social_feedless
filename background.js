@@ -5,7 +5,7 @@ const css = `
     /* Twitter (X) */
     main[role="main"] { display: none !important; }
     /* LinkedIn */
-    "main > div:last-child" { display: none !important; }
+    main > div:last-child { display: none !important; }
     /* Instagram */
     main[role="main"] { display: none !important; }
 `;
